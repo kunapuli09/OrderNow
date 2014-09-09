@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<dataset>
+
+	<customer CUSTOMER_ID="1" inDeliveryArea="false" password="saigrocery"
+		password_hint="don&apos;t know" first_name="Krishna" last_name="Kunapuli"
+		email="saigrocery@gmail.com" phone_number="719-264-8532" address="2316 Vickers Drive"
+		city="Colorado Springs" state="CO" country="USA" zip_code="80918"
+		version="0" account_enabled="true" account_expired="false"
+		account_locked="false" credentials_expired="false" />
+
+	<user_privilege ID="1" PRIVILEGE="ROLE_GUEST"	customer_CUSTOMER_ID="1" />
+	<user_privilege ID="2" PRIVILEGE="ROLE_STORE_OWNER"	customer_CUSTOMER_ID="1" />
+	<user_privilege ID="3" PRIVILEGE="ROLE_ADMIN"	customer_CUSTOMER_ID="1" />
+
+	<services SERVICES_ID="1" emailService="true" phoneService="true"
+		faxService="true" deliveryService="true" ordersService="true"
+		creditServie="true" updateOrdersService="true" />
+
+	<customer_services CUSTOMER_ID="1" SERVICES_ID="1" />
+
+
+
+	<category CATEGORY_ID="1" OBJ_VERSION="1" CATEGORY_NAME="Menu"	CREATED="2008-04-06 18:00:37.0" />
+	<category CATEGORY_ID="2" OBJ_VERSION="1" CATEGORY_NAME="Main Menu"	CREATED="2008-04-06 18:00:37.0" PARENT_CATEGORY_ID="1" />
+
+
+
+	<category CATEGORY_ID="3" OBJ_VERSION="1" CATEGORY_NAME="Lentils" CREATED="2008-04-06 18:00:37.0" PARENT_CATEGORY_ID="2" />
+	<category CATEGORY_ID="4" OBJ_VERSION="1" CATEGORY_NAME="Grains" CREATED="2008-04-06 18:00:37.0" PARENT_CATEGORY_ID="2" />
+	<category CATEGORY_ID="6" OBJ_VERSION="1" CATEGORY_NAME="Spices" CREATED="2008-04-06 18:00:37.0" PARENT_CATEGORY_ID="2" />
+	<category CATEGORY_ID="7" OBJ_VERSION="1" CATEGORY_NAME="Pickles" CREATED="2008-04-06 18:00:37.0" PARENT_CATEGORY_ID="2" />
+	<category CATEGORY_ID="10" OBJ_VERSION="1"	CATEGORY_NAME="Beverages/Malts/Juices" CREATED="2008-04-06 18:00:37.0"	PARENT_CATEGORY_ID="2" />
+	<category CATEGORY_ID="11" OBJ_VERSION="1" CATEGORY_NAME="Other Grocery" CREATED="2008-04-06 18:00:37.0" PARENT_CATEGORY_ID="2" />
+	<category CATEGORY_ID="12" OBJ_VERSION="1" CATEGORY_NAME="Flours" CREATED="2008-04-06 18:00:37.0" PARENT_CATEGORY_ID="2" />
+
+
+	<!-- Lentil Varieties -->
+
+	<item ITEM_ID="1" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Toor Daal 4lbs" VALUE="6.99" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="2" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Toor Daal 4lbs" VALUE="6.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="3" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Toor Daal 2lbs" VALUE="3.99" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="4" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Toor Daal 2lbs" VALUE="3.99" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="5" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Chana Daal 4lbs" VALUE="5.99" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="6" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Chana Daal 4lbs" VALUE="5.49" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="7" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Chana Daal 2lbs" VALUE="3.29" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="8" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Chana Daal 2lbs" VALUE="2.99" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="9" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Urad Daal(Whole) 4lbs" VALUE="6.49" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="10" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Urad Daal(Whole) 4lbs" VALUE="5.49" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="11" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Urad Daal(Whole) 2lbs" VALUE="3.29" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="12" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Urad Daal(Whole) 2lbs" VALUE="2.99" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="13" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Urad Daal(Gota) 4lbs" VALUE="6.49" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="14" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Urad Daal(Gota) 4lbs" VALUE="5.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="15" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Urad Daal(Gota) 2lbs" VALUE="3.49" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="16" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Urad Daal(Gota) 2lbs" VALUE="3.49" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="17" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Urad Daal(Split) 4lbs" VALUE="6.49" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="18" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Urad Daal(Split) 4lbs" VALUE="6.49" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="19" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Urad Daal(Split) 2lbs" VALUE="3.49" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="20" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Urad Daal(Split) 2lbs" VALUE="3.49" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="21" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Masoor Daal 4lbs" VALUE="7.49" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="22" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Masoor Daal 4lbs" VALUE="7.49" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="23" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Masoor Daal 2lbs" VALUE="3.99" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="24" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Masoor Daal 2lbs" VALUE="3.99" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="25" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Masoor(Whole) Daal 4lbs" VALUE="5.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="26" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Masoor(Whole) Daal 2lbs" VALUE="3.49" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="27" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Masoor Matki 2lbs" VALUE="3.49" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="28" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Kala Chana Daal 4lbs" VALUE="4.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="29" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Kala Chana Daal 2lbs" VALUE="2.99" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="30" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Kabuli Chana Daal 4lbs" VALUE="5.99" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="31" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Kabuli Chana Daal 4lbs" VALUE="5.49" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="32" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Kabuli Chana Daal 2lbs" VALUE="3.29" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="33" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Kabuli Chana Daal 2lbs" VALUE="2.99" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="34" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Green Vatana 2lbs" VALUE="2.29" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="35" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Green Vatana 2lbs" VALUE="2.29" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="36" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi White Vatana 2lbs" VALUE="2.29" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="37" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad White Vatana 2lbs" VALUE="2.29" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	<item ITEM_ID="38" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Moong Daal 4lbs" VALUE="6.49" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="39" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Moong Daal 4lbs" VALUE="5.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="40" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Moong Daal 2lbs" VALUE="3.79" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="41" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Moong Daal 2lbs" VALUE="3.49" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="42" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Red Chori 4lbs" VALUE="6.99" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="43" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Red Chori 2lbs" VALUE="3.99" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="44" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Kidney Beans 4lbs" VALUE="5.49" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="45" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Kidney Beans 2lbs" VALUE="2.99" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	
+	<item ITEM_ID="46" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Moong (Whole) 4lbs" VALUE="6.49" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="47" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Moong (Whole) 4lbs" VALUE="5.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="48" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Moong (Whole) 2lbs" VALUE="3.79" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="49" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Moong (Whole) 2lbs" VALUE="3.49" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	
+	<categorized_item CATEGORY_ID="3" ITEM_ID="1" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="2" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="3" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="4" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="5" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="6" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="7" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="8" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="9" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="10" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="11" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="12" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="13" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="14" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="15" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="16" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="17" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="18" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="19" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="20" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="21" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="22" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="23" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="24" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="25" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="26" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="27" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="28" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="29" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="30" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="31" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="32" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="33" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="34" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="35" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="36" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="37" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="38" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="39" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="40" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="41" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="42" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="43" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="44" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="45" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="46" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="47" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="48" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="3" ITEM_ID="49" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+
+	<item_images ITEM_ID="1" ITEM_IMAGE_ID="1" FILENAME="images/web2.0/dal_toor.jpg" />
+	<item_images ITEM_ID="2" ITEM_IMAGE_ID="2" FILENAME="images/web2.0/dal_toor1.jpg" />
+	<item_images ITEM_ID="3" ITEM_IMAGE_ID="3" FILENAME="images/web2.0/dal_urad.jpg" />
+	<item_images ITEM_ID="4" ITEM_IMAGE_ID="4" FILENAME="images/web2.0/dal_urad_split.jpg" />
+	<item_images ITEM_ID="5" ITEM_IMAGE_ID="5" FILENAME="images/web2.0/dal_uradgota.jpg" />
+	<item_images ITEM_ID="6" ITEM_IMAGE_ID="6" FILENAME="images/web2.0/dal_urad_split.jpg" />
+	<item_images ITEM_ID="7" ITEM_IMAGE_ID="7" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="8" ITEM_IMAGE_ID="8" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="9" ITEM_IMAGE_ID="9" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="10" ITEM_IMAGE_ID="10" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	
+	<item_images ITEM_ID="11" ITEM_IMAGE_ID="11" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="12" ITEM_IMAGE_ID="12" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="13" ITEM_IMAGE_ID="13" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="14" ITEM_IMAGE_ID="14" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="15" ITEM_IMAGE_ID="15" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="16" ITEM_IMAGE_ID="16" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="17" ITEM_IMAGE_ID="17" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="18" ITEM_IMAGE_ID="18" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="19" ITEM_IMAGE_ID="19" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="20" ITEM_IMAGE_ID="20" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	
+	<item_images ITEM_ID="21" ITEM_IMAGE_ID="21" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="22" ITEM_IMAGE_ID="22" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="23" ITEM_IMAGE_ID="23" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="24" ITEM_IMAGE_ID="24" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="25" ITEM_IMAGE_ID="25" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="26" ITEM_IMAGE_ID="26" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="27" ITEM_IMAGE_ID="27" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="28" ITEM_IMAGE_ID="28" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="29" ITEM_IMAGE_ID="29" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="30" ITEM_IMAGE_ID="30" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+
+
+	<item_images ITEM_ID="31" ITEM_IMAGE_ID="31" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="32" ITEM_IMAGE_ID="32" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="33" ITEM_IMAGE_ID="33" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="34" ITEM_IMAGE_ID="34" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="35" ITEM_IMAGE_ID="35" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="36" ITEM_IMAGE_ID="36" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="37" ITEM_IMAGE_ID="37" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="38" ITEM_IMAGE_ID="38" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="39" ITEM_IMAGE_ID="39" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="40" ITEM_IMAGE_ID="40" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	
+	<item_images ITEM_ID="41" ITEM_IMAGE_ID="41" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="42" ITEM_IMAGE_ID="42" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="43" ITEM_IMAGE_ID="43" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="44" ITEM_IMAGE_ID="44" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="45" ITEM_IMAGE_ID="45" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="46" ITEM_IMAGE_ID="46" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="47" ITEM_IMAGE_ID="47" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="48" ITEM_IMAGE_ID="48" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="49" ITEM_IMAGE_ID="49" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	
+	
+	<!-- Grain Varieties -->
+	<item ITEM_ID="50" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Rice (Shiv Sona Masoori) 20lbs" VALUE="25.99" DESCRIPTION="Shiv brand, available in 20lb bags. Deluxe Sona Masoori rice great for household cooking." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="51" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Rice (Shiv Ponni Boiled Rice) 20lbs" VALUE="27.99" DESCRIPTION="Shiv brand, available in 20lb bags. Pure basmati rice adds authentic taste for your food." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="52" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Rice (Swad Ponni Boiled Rice) 20lbs" VALUE="27.99" DESCRIPTION="Swad brand, available in 20lb bags. Pure basmati rice adds authentic taste for your food." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="53" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Rice (Tilda Basmati) 10lbs" VALUE="19.99" DESCRIPTION="Tilda brand, available in 10lb bags. Pure basmati rice adds authentic taste for your food." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="54" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Rice (Shiv Kerala Rose Matta-Brown) 20lbs" VALUE="27.99" DESCRIPTION="Shiv brand, available in 20lb bags. Pure basmati rice adds authentic taste for your food." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="55" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Rice (Swad Ponni Raw) 20lbs" VALUE="27.99" DESCRIPTION="Swad brand, available in 20lb bags. Pure basmati rice adds authentic taste for your food." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	
+	
+	<item ITEM_ID="56" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Wheat Flour - Manish Chakki Atta(Rasoi Ka Raja) 20lbs" VALUE="12.99" DESCRIPTION="Manish brand, available in 20lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="57" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Wheat Flour- Swad Chakki Atta 20lbs" VALUE="11.99" DESCRIPTION="Swad brand, available in 20lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+    <item ITEM_ID="58" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Wheat Flour - Golden Temple Atta 20lbs" VALUE="12.99" DESCRIPTION="Golden Temple brand, available in 20lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="59" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Wheat Flour- Ashirwad Whole Wheat Atta 22lbs" VALUE="16.99" DESCRIPTION="Ashirwad brand, available in 22lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+    <item ITEM_ID="60" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Wheat Flour- Annapurna Whole Wheat Atta 22lbs" VALUE="16.99" DESCRIPTION="Annapurna brand, available in 22lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+    <item ITEM_ID="61" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Wheat Flour- Sujatha Whole Wheat 20lbs" VALUE="14.99" DESCRIPTION="Sujatha brand, available in 20lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+    <item ITEM_ID="62" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Wheat Flour- Lakshmi Whole Wheat 20lbs" VALUE="14.99" DESCRIPTION="Lakshmi brand, available in 20lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+    
+
+
+
+
+	<categorized_item CATEGORY_ID="4" ITEM_ID="50" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="51" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="52" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="53" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="54" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="55" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="56" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="57" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="58" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="59" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="60" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="61" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="4" ITEM_ID="62" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+
+	
+
+
+	<item_images ITEM_ID="50" ITEM_IMAGE_ID="50" FILENAME="images/web2.0/rice_sonamasoori.jpg" />
+	<item_images ITEM_ID="51" ITEM_IMAGE_ID="51" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="52" ITEM_IMAGE_ID="52" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="53" ITEM_IMAGE_ID="53" FILENAME="images/web2.0/rice_basmati.jpg" />
+	<item_images ITEM_ID="54" ITEM_IMAGE_ID="54" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="55" ITEM_IMAGE_ID="55" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="56" ITEM_IMAGE_ID="56" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="57" ITEM_IMAGE_ID="57" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="58" ITEM_IMAGE_ID="58" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="59" ITEM_IMAGE_ID="59" FILENAME="images/web2.0/atta1.jpg" />
+	<item_images ITEM_ID="60" ITEM_IMAGE_ID="60" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="61" ITEM_IMAGE_ID="61" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="62" ITEM_IMAGE_ID="62" FILENAME="images/web2.0/chappathi_flour.jpg" />
+	
+
+
+	<!-- Spices Varieties -->
+
+<item ITEM_ID="63" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="MDH Masala 100gms" VALUE="1.49" DESCRIPTION="MDH brand, available in 100gms packs." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+<item ITEM_ID="64" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Shan Masala 100gms" VALUE="1.49" DESCRIPTION="Shan brand, available in 100gms packs." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+<item ITEM_ID="65" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Parampara Masala 80gms" VALUE="1.75" DESCRIPTION="Parampara brand, available in 80gms packs." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+
+
+	<categorized_item CATEGORY_ID="6" ITEM_ID="63"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="6" ITEM_ID="64"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="6" ITEM_ID="65"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+
+	
+	<item_images ITEM_ID="63" ITEM_IMAGE_ID="63" FILENAME="images/web2.0/spices_masala.jpg" />
+	<item_images ITEM_ID="64" ITEM_IMAGE_ID="64" FILENAME="images/web2.0/spices_masala.jpg" />
+	<item_images ITEM_ID="65" ITEM_IMAGE_ID="65" FILENAME="images/web2.0/spices_masala.jpg" />
+
+
+	<!-- Pickle Varieties -->
+
+	<item ITEM_ID="66" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Priya Pickle 300gms" VALUE="1.99" DESCRIPTION="Priya brand, available in 300gms packs." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="67" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Udipi Pickle 300gms" VALUE="1.99" DESCRIPTION="Udipi brand, available in 300gms packs." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+
+
+    <categorized_item CATEGORY_ID="7" ITEM_ID="66"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="7" ITEM_ID="67"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+
+
+	<item_images ITEM_ID="66" ITEM_IMAGE_ID="66"	FILENAME="images/web2.0/pickles.jpg" />
+	<item_images ITEM_ID="67" ITEM_IMAGE_ID="67"	FILENAME="images/web2.0/pickles_udipi.jpg" />
+
+<!-- Flours Varieties -->
+	
+  	<item ITEM_ID="68" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Sooji Corase 4lbs" VALUE="4.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="69" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Sooji Corase 2lbs" VALUE="3.49" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="70" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Sooji Corase 2lbs" VALUE="2.99" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="71" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Besan 4lbs" VALUE="5.99" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="72" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Sooji Corase 4lbs" VALUE="5.99" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="73" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Besan 2lbs" VALUE="3.49" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="74" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad All Purpose Flour- Maida 2lbs" VALUE="2.49" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="75" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Rice Flour 4lbs" VALUE="3.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="76" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Rice Flour 2lbs" VALUE="2.49" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="77" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Cream Of Rice 4lbs" VALUE="5.49" DESCRIPTION="Laxmi brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="78" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Cream Of Rice 2lbs" VALUE="2.99" DESCRIPTION="Laxmi brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="79" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Idli Rava 4lbs" VALUE="4.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="80" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Idli Rava 2lbs" VALUE="2.79" DESCRIPTION="Swad brand, available in 2lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/> 
+	<item ITEM_ID="81" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad All Purpose Flour - Maida 4lbs" VALUE="3.99" DESCRIPTION="Swad brand, available in 4lb bags. Used primarily in indian house hold cooking" START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	 
+	
+	
+	<categorized_item CATEGORY_ID="12" ITEM_ID="68"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="69"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="70"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+    <categorized_item CATEGORY_ID="12" ITEM_ID="71"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="72"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="73"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="74"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="75" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="76"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="77"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="78"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+    <categorized_item CATEGORY_ID="12" ITEM_ID="79" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="80"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="12" ITEM_ID="81"	ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+		
+	<item_images ITEM_ID="68" ITEM_IMAGE_ID="68" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="69" ITEM_IMAGE_ID="69" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="70" ITEM_IMAGE_ID="70" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="71" ITEM_IMAGE_ID="71" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="72" ITEM_IMAGE_ID="72" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="73" ITEM_IMAGE_ID="73" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="74" ITEM_IMAGE_ID="74" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="75" ITEM_IMAGE_ID="75" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="76" ITEM_IMAGE_ID="76" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="77" ITEM_IMAGE_ID="77" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="78" ITEM_IMAGE_ID="78" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="79" ITEM_IMAGE_ID="79" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="80" ITEM_IMAGE_ID="80" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="81" ITEM_IMAGE_ID="81" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+
+
+
+	<!-- Beverages/Malts/Juices Varieties -->
+
+	<item ITEM_ID="105" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Bru Instant Coffee 100gms" VALUE="2.99" DESCRIPTION="Bru Instant Coffee, available in 100gms." START_DATE="2008-04-06 18:34:54.0"	END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"		APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="106" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Bru Instant Coffee 200gms" VALUE="4.49" DESCRIPTION="Bru Instant Coffee, available in 200gms." START_DATE="2008-04-06 18:34:54.0"	END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"		APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="107" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Red Label Tea 450gms" VALUE="3.99" DESCRIPTION="Brooke Bond Red Label brand available 450 Gms pack." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="108" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Taj Mahal Tea 450gms" VALUE="3.99" DESCRIPTION="Brooke Bond Taj Mahal brand available 450 Gms pack." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="109" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Red Label Tea 900 gms" VALUE="6.99" DESCRIPTION="Brooke Bond Red Label brand available 900 Gms pack."		START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0"		ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="110" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Boost 500gms" VALUE="5.99" DESCRIPTION="Boost, available in 500gms packs." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="111" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Horlicks 500gms" VALUE="5.99" DESCRIPTION="Horlicks, available in 500gms packs." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="112" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Complan Clocolate 500gms"	VALUE="6.99" DESCRIPTION="Complan, available in 500gms packs." START_DATE="2008-04-06 18:34:54.0"		END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"		APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="113" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Bournvita 500gms"	VALUE="5.99" DESCRIPTION="Bournvita, available in 500gms packs."		START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0"		ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+
+
+	<categorized_item CATEGORY_ID="10" ITEM_ID="105" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="10" ITEM_ID="106" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="10" ITEM_ID="107" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="10" ITEM_ID="108" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="10" ITEM_ID="109" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="10" ITEM_ID="110" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="10" ITEM_ID="111" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="10" ITEM_ID="112" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="10" ITEM_ID="113" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+
+
+	<item_images ITEM_ID="105" ITEM_IMAGE_ID="105" FILENAME="images/web2.0/coffee_bru.jpg" />
+	<item_images ITEM_ID="106" ITEM_IMAGE_ID="106" FILENAME="images/web2.0/coffee_bru.jpg" />
+	<item_images ITEM_ID="107" ITEM_IMAGE_ID="107" FILENAME="images/web2.0/tea.jpg" />
+	<item_images ITEM_ID="108" ITEM_IMAGE_ID="108" FILENAME="images/web2.0/tea.jpg" />
+	<item_images ITEM_ID="109" ITEM_IMAGE_ID="109" FILENAME="images/web2.0/tea.jpg" />
+	<item_images ITEM_ID="110" ITEM_IMAGE_ID="110" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="111" ITEM_IMAGE_ID="111" FILENAME="images/web2.0/kids_energydrinks.jpg" />
+	<item_images ITEM_ID="112" ITEM_IMAGE_ID="112" FILENAME="images/web2.0/kids_energydrinks.jpg" />
+	<item_images ITEM_ID="113" ITEM_IMAGE_ID="113" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+
+
+	<!-- Other grocery Variety -->
+
+
+	<item ITEM_ID="114" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Maggi Noodles 90gms"	VALUE="0.50" DESCRIPTION="Maggi Noodles, available in 90gms" START_DATE="2008-04-06 18:34:54.0"		END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"		APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+    <item ITEM_ID="115" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Vermicelli 2lbs" VALUE="2.99" DESCRIPTION="Vermicelli, available in 2lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="116" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Poha Thick/Thin 2lbs" VALUE="2.79" DESCRIPTION="Poha Thick/Thin, available in 2lb bags." START_DATE="2008-04-06 18:34:54.0"	END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"	APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="117" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Sabhudana 2lbs"	VALUE="2.99" DESCRIPTION="Lakshmi brand, available in 2lb bags"		START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0"		ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="118" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Sabhudana 2lbs"	VALUE="2.99" DESCRIPTION="Swad brand, available in 2lb bags." START_DATE="2008-04-06 18:34:54.0"		END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"		APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+    <item ITEM_ID="119" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Cracked Wheat (Fine) 2lbs" VALUE="2.79" DESCRIPTION="Swad brand, available in 2lb bags." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="120" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Cracked Wheat (Coarse) 2lbs" VALUE="2.79" DESCRIPTION="Swad brand, available in 2lb bags." START_DATE="2008-04-06 18:34:54.0"	END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"	APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="121" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Manish Red Chilli (Whole) 100gms"	VALUE="1.49" DESCRIPTION="Manish brand, available in 100gms packs."		START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0"		ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+    <item ITEM_ID="122" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Red Chilli (Whole) 100gms"	VALUE="1.49" DESCRIPTION="Swad brand, available in 100gms packs."		START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0"		ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="123" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Red Chilli (Whole) 100gms" VALUE="1.49" DESCRIPTION="Lakshmi brand, available in 100gms packs." START_DATE="2008-04-06 18:34:54.0"	END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"	APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="124" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Manish Red Chilli (Whole) 200gms"	VALUE="2.99" DESCRIPTION="Manish brand, available in 200gms packs."		START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0"		ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="125" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Red Chilli (Whole) 200gms"	VALUE="2.99" DESCRIPTION="Swad brand, available in 200gms packs." START_DATE="2008-04-06 18:34:54.0"		END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"		APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+    <item ITEM_ID="126" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Red Chilli (Whole) 200gms" VALUE="2.99" DESCRIPTION="Lakshmi brand, available in 200gms packs." START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0"/>
+	<item ITEM_ID="127" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Manish Red Chilli (Whole) 400gms" VALUE="3.99" DESCRIPTION="Manish brand, available in 400gms packs." START_DATE="2008-04-06 18:34:54.0"	END_DATE="2008-04-06 18:34:54.0" ITEM_STATE="ACTIVE"	APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+	<item ITEM_ID="128" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Swad Red Chilli (Whole) 400gms"	VALUE="3.99" DESCRIPTION="Swad brand, available in 400gms packs."		START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0"		ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+    <item ITEM_ID="129" OBJ_VERSION="2" CURRENCY="USD" ITEM_NAME="Lakshmi Red Chilli (Whole) 400gms"	VALUE="3.99" DESCRIPTION="Lakshmi brand, available in 400gms packs."		START_DATE="2008-04-06 18:34:54.0" END_DATE="2008-04-06 18:34:54.0"		ITEM_STATE="ACTIVE" APPROVAL_DATETIME="2008-04-06 18:34:54.0" CREATED="2008-04-06 18:34:54.0" />
+
+
+
+	<categorized_item CATEGORY_ID="11" ITEM_ID="114" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="115" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="116" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="117" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="118" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="119" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="120" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="121" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="122" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="123" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="124" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="125" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="126" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="127" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="128" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	<categorized_item CATEGORY_ID="11" ITEM_ID="129" ADDED_BY_USER="starpath" ADDED_ON="2008-04-06 18:38:26.0" />
+	
+	<item_images ITEM_ID="114" ITEM_IMAGE_ID="114" FILENAME="images/web2.0/noodles.jpg" />
+	<item_images ITEM_ID="115" ITEM_IMAGE_ID="115" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="116" ITEM_IMAGE_ID="116" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="117" ITEM_IMAGE_ID="117" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="118" ITEM_IMAGE_ID="118" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="119" ITEM_IMAGE_ID="119" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="120" ITEM_IMAGE_ID="120" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="121" ITEM_IMAGE_ID="121" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="122" ITEM_IMAGE_ID="122" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="123" ITEM_IMAGE_ID="123" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="124" ITEM_IMAGE_ID="124" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="125" ITEM_IMAGE_ID="125" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="126" ITEM_IMAGE_ID="126" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="127" ITEM_IMAGE_ID="127" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="128" ITEM_IMAGE_ID="128" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	<item_images ITEM_ID="129" ITEM_IMAGE_ID="129" FILENAME="images/web2.0/imagecomingsoon.jpg" />
+	
+	
+</dataset>
+
+    

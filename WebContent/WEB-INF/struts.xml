@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <constant name="struts.custom.i18n.resources"
+    value="global-messages" />
+   
+    <constant name="struts.ui.theme"
+    value="xhtml" /> 
+    
+   <constant name="struts.devMode" value="false" />
+   
+    <package name="view" namespace="/jsp" extends="ssl-default">
+		<interceptors>
+        <interceptor-stack name="SecureStack">
+        <interceptor-ref name="secure">
+        <param name="useAnnotations">false</param>
+        <param name="httpsPort">443</param>
+        <param name="httpPort">80</param>
+         </interceptor-ref>
+         <interceptor-ref name="defaultStack"/>
+        </interceptor-stack>
+        </interceptors>
+         
+       
+         <action name="loginAction" class="com.starpath.login.actions.LoginAction">
+					<result>/jsp/loginSuccess1.jsp</result>
+					<result name="input">/jsp/starpathTemplate.jsp</result>
+					<result name="error">/jsp/loginError.jsp</result>
+        </action>
+         <action name="loginAction2" class="com.starpath.login.actions.LoginAction2">
+					<result>/jsp/login2Success.jsp</result>
+					<result name="input">/jsp/starpathTemplate.jsp</result>
+					<result name="error">/jsp/loginError.jsp</result>
+        </action>
+         <action name="loginAction1" class="com.starpath.login.actions.LoginAction1">
+					<result>/jsp/starpathTemplate.jsp</result>
+					<result name="input">/jsp/starpathTemplate.jsp</result>
+					<result name="error">/jsp/starpathTemplate1.jsp</result>
+        </action>
+          <action name="logoutAction" class="com.starpath.login.actions.LogoutAction">
+					<result>/jsp/starpathTemplate1.jsp</result>
+					
+        </action> 
+        <action name="doUpload" class="com.starpath.admin.actions.AdminStep1">
+                <result>/jsp/uploadsuccess.jsp</result>
+                <result name="input">/jsp/uploadTemplate.jsp</result> 
+				<result name="error">/jsp/uploadError.jsp</result> 
+        </action>
+         <action name="showRegister">
+                <result>/jsp/register.jsp</result>
+               
+        </action>
+        <action name="doRegister" class="com.starpath.admin.actions.Register"> 
+                <result>/jsp/registerSuccess.jsp</result>
+                <result name="input">/jsp/registerTemplate.jsp</result>
+				<result name="error">/jsp/registerError.jsp</result>  
+        </action>
+         <action name="EmailActivate" class="com.starpath.admin.actions.EmailActivation">
+                <result>/jsp/starpathTemplate.jsp</result>
+                <result name="error">/jsp/starpathTemplate.jsp</result>
+               
+        </action>
+        <action name="getCategories" class="com.starpath.menu.actions.GetCategories">
+                 <result>/jsp/orderTemplate.jsp</result>
+               <result name="error">/jsp/showMenu.jsp</result> 
+        </action> 
+		<action name="getViewCategories" class="com.starpath.menu.actions.GetCategories">
+                 <result>/jsp/fullMenuTemplate.jsp</result>  
+               <result name="error">/jsp/showMenu.jsp</result> 
+        </action> 
+        <action name="getStaticMenu" class="com.starpath.menu.actions.GetCategories">
+                <result>/jsp/orderStaticTemplate.jsp</result>
+               <result name="error">/jsp/showStaticMenu.jsp</result> 
+        </action> 
+        <action name="getRestaurantStatus" class="com.starpath.admin.actions.RestaurantStatus">
+                <result>/jsp/restaurantOpened.jsp</result>
+               <result name="error">/jsp/restaurantClosed.jsp</result>
+        </action> 
+        
+        <action name="doUpdateServices" class="com.starpath.admin.actions.UpdateServices">
+                <result>/jsp/servicesupdated.jsp</result>
+                <result name="input">/jsp/servicesTemplate.jsp</result>
+				<result name="error">/jsp/servicesError.jsp</result> 
+        </action>
+        <action name="doUpdateHolidays" class="com.starpath.admin.actions.UpdateHolidays">
+                <result>/jsp/holidaysUpdated.jsp</result>
+                <result name="input">/jsp/updateHolidaysTemplate.jsp</result>
+				<result name="error">/jsp/holidaysError.jsp</result> 
+        </action> 
+         <action name="addOrder" class="com.starpath.order.actions.AddOrder">
+                <result>/jsp/shoppingCart.jsp</result>
+                <result name="input">/jsp/itemsContainer.jsp</result>
+				<result name="error">/jsp/servicesError.jsp</result> 
+        </action> 
+         <action name="GetUpdatedShoppingCart" class="com.starpath.order.actions.UpdateOrder"> 
+                <result>/jsp/shoppingCart.jsp</result>
+                <result name="input">/jsp/shoppingCart.jsp</result>
+				<result name="error">/jsp/servicesError.jsp</result> 
+        </action>
+        <action name="Checkout" class="com.starpath.order.actions.Checkout"> 
+                <result>/jsp/registerForm1Template.jsp</result>
+                <result name="input">/jsp/shoppingCart.jsp</result>
+				<result name="error">/jsp/registerForm1Template.jsp</result> 
+        </action>
+        <action name="doRegisterForOrder" class="com.starpath.admin.actions.Register1"> 
+        			<result>/jsp/paymentForm.jsp</result>
+ 				<result name="input">/jsp/registerForm1Template.jsp</result>
+				<result name="error">/jsp/registerError.jsp</result>
+        </action><!--  
+       <action name="CheckoutOrder" class="com.starpath.order.actions.CheckoutOrder"> 
+                <result>/jsp/paymentForm.jsp</result>
+                <result name="input">/jsp/registerForm1Template.jsp</result>
+               	<result name="error">/jsp/orderError.jsp</result> 
+				
+        </action>
+        --><action name="CheckoutOrderCancel">
+       			<result>/jsp/orderCancel.jsp</result> 
+		</action>
+		<action name="BackToRegister">
+       			<result>/jsp/orderCancel1.jsp</result> 
+		</action>
+		<action name="CancelPage">
+       			<result>/jsp/cancelPage.jsp</result>  
+		</action>
+         <action name="ShowOrders" class="com.starpath.order.actions.ShowOrders">
+                <result>/jsp/showOrders.jsp</result>
+                <result name="input">/jsp/starpathTemplate1.jsp</result>
+				<result name="error">/jsp/ShowOrdersError.jsp</result> 
+        </action>
+        <action name="orderDetail" class="com.starpath.order.actions.ShowOrders">
+                <result>/jsp/orderDetailsTemplate.jsp</result>
+                <result name="input">/jsp/searchCustomerOrders.jsp</result>
+				<result name="error">/jsp/ShowOrdersError.jsp</result> 
+        </action>  
+         <action name="ForgotPasswordAction" class="com.starpath.admin.actions.ForgotPassword">
+                <result>/jsp/forgotPasswordSuccess.jsp</result>
+                <result name="input">/jsp/starpathTemplate1.jsp</result>
+				<result name="error">/jsp/forgotPasswordError.jsp</result> 
+        </action>
+        <action name="EditProfileAction" class="com.starpath.admin.actions.EditProfile">
+                <result>/jsp/editProfileSuccess.jsp</result>
+                <result name="input">/jsp/editProfileTemplate.jsp</result>
+				<result name="error">/jsp/loginError.jsp</result> 
+        </action> 
+        <action name="selectTag" class="com.starpath.order.actions.OrderTimeAction">
+       			<result>/jsp/picupDelivery.jsp</result> 
+		</action>
+		<action name="PaymentAction" class="com.starpath.order.actions.PaymentAction">
+                <result>/jsp/orderSuccess.jsp</result>
+                <result name="error">/jsp/orderFailure.jsp</result> 
+        </action>
+        <action name="PaymentFailureAction" class="com.starpath.order.actions.PaymentFailureAction">
+                <result>/jsp/orderFailure.jsp</result>   
+                <result name="error">/jsp/orderFailure.jsp</result>              
+        </action>
+        
+        <action name="orderFailureAction" class="com.starpath.order.actions.Checkout">
+        	    <result>/jsp/registerForm1Template.jsp</result>
+                <result name="input">/jsp/creditFailure.jsp</result>
+				<result name="error">/jsp/registerForm1Template.jsp</result>
+        </action>
+        <action name="UpdateOrderAction" >
+        	    <result>/jsp/registerForm1Template.jsp</result> 
+        	    <result name="input">/jsp/paymentForm.jsp</result>
+        </action>
+        <action name="showSearchCustomerOrders">
+        	<result>/jsp/searchCustomerOrders.jsp</result>
+        </action>
+        <action name="searchCustomerOrders" class="com.starpath.admin.actions.SearchCustomerOrders">
+                <result>/jsp/searchCustomerOrdersSuccess.jsp</result>
+                <result name="input">/jsp/searchCustomerOrders.jsp</result>
+				<result name="error">/jsp/searchCustomerOrdersError.jsp</result> 
+        </action>
+        <action name="searchRequestedCustomerOrders" >
+        	    <result>/jsp/searchCustomerOrdersTemplate.jsp</result> 
+        </action>
+        <action name="cancelOrder" class="com.starpath.order.actions.CancelOrder">
+                <result>/jsp/cancelOrderSuccess.jsp</result>
+                <result name="input">/jsp/searchCustomerOrdersResult.jsp</result>
+				<result name="error">/jsp/orderFailure.jsp</result> 
+        </action>
+        
+   </package>
+ 
+</struts>

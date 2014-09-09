@@ -1,0 +1,31 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+	<persistence-unit name="userPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>com.starpath.order.domain.Customer</class>
+		<class>com.starpath.order.domain.CServices</class>
+		<class>com.starpath.order.domain.UserPrivilege</class>
+		<class>com.starpath.order.domain.Address</class>
+		<class>com.starpath.order.domain.PaymentDetail</class>
+		<class>com.starpath.order.domain.CreditCard</class>
+		<class>com.starpath.order.domain.BankAccount</class>
+		<class>com.starpath.order.domain.Order</class>
+		<class>com.starpath.order.domain.Item</class>
+		<class>com.starpath.order.domain.Category</class>
+		<class>com.starpath.order.domain.CategorizedItem</class> 
+		<class>com.starpath.order.domain.ItemOption</class>
+		<class>com.starpath.order.domain.ItemPromotion</class>
+		<class>com.starpath.order.domain.ItemState</class>
+		<class>com.starpath.order.domain.Shipment</class>
+		<class>com.starpath.order.domain.ShipmentState</class>
+		<class>com.starpath.order.domain.Price</class>
+		<exclude-unlisted-classes />
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.archive.autodetection" value="class, hbm" />
+			<!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
+		</properties>
+			
+	</persistence-unit>
+</persistence>

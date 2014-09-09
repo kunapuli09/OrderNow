@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+
+<project basedir="." default="build" name="saigrocery">
+
+	<property environment="env" />
+	<!--<property name="ECLIPSE_HOME" value="C:/Documents and Settings/sys1/Desktop/eclipse"/>-->
+	<property name="debuglevel" value="source,lines,vars"/>
+	<property name="CATALINA_HOME" value="${env.CATALINA_HOME}"/>
+	<property name="target" value="1.5"/>
+	<property name="source" value="1.5"/>
+
+	<property name="dir.src" value="src"/>
+	<property name="dir.webcontent" value="WebContent" />
+	<property name="dir.build" value="build"/>
+
+	<path id="Apache Tomcat v5.5 [Apache Tomcat v5.5].libraryclasspath">
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/commons-el.jar"/>
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/jasper-compiler-jdt.jar"/>
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/jasper-compiler.jar"/>
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/jasper-runtime.jar"/>
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/jsp-api.jar"/>
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/naming-factory-dbcp.jar"/>
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/naming-factory.jar"/>
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/naming-resources.jar"/>
+		<pathelement location="C:/apache-tomcat-5.5.25/apache-tomcat-5.5.25/common/lib/servlet-api.jar"/>
+	</path>
+
+	<path id="Web App Libraries.libraryclasspath">
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/activation-1.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/antlr-2.7.6.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/asm-1.5.3.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/cglib-2.1_3.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/commons-codec-1.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/commons-collections-3.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/commons-fileupload-1.2.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/commons-io-1.3.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/commons-lang-2.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/commons-logging-1.0.4.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/dom4j-1.6.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/ejb3-persistence.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/ehcache-1.2.3.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/freemarker-2.3.8.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/hibernate-3.2.1.ga.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/hibernate-annotations-3.2.1.ga.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/hibernate-commons-annotations.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/hibernate-entitymanager-3.2.1.ga.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/itext-1.3.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/jasypt-1.4.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/javassist-3.0.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/jboss-archive-browsing-5.0.0alpha-200607201-119.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/jstl.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/jta-1.0.1B.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/junit-3.8.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/log4j-1.2.13.jar" />
+			<pathelement location="${dir.webcontent}/WEB-INF/lib/mail-1.4.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/mysql-connector-java-5.0.5.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/ognl-2.6.11.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/servlet-api.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/spring.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/spring-mock-2.0-m4.jar"/>				
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/standard.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/struts2-core-2.0.11.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/struts2-spring-plugin-2.0.11.1.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/spring-modules-cache-0.8.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/xwork-2.0.4.jar"/>
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/jsp-api.jar" /> 
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/displaytag-1.1.1.jar" /> 
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
+		<pathelement location="${dir.webcontent}/WEB-INF/lib/struts2-ssl-plugin-1.0.jar" /> 
+	</path>
+
+
+	<path id="EAR Libraries.libraryclasspath"/>
+	<path id="Test.classpath">
+		<pathelement location="${dir.build}/classes"/>
+		<path refid="Apache Tomcat v5.5 [Apache Tomcat v5.5].libraryclasspath"/>
+		<path refid="Web App Libraries.libraryclasspath"/>
+		<path refid="EAR Libraries.libraryclasspath"/>
+	</path>
+
+	<target name="check">
+		<fail unless="env.CATALINA_HOME">CATALINA_HOME class path must be set</fail>
+	</target>
+
+	<target name="clean">
+		<delete dir="${dir.build}/classes"/>
+		<delete dir="${dir.build}/lib"/>
+		<delete dir="${dir.build}/WEB-INF"/>
+		<delete dir="${dir.build}/images"/>
+		<delete dir="${dir.build}/css"/>
+		<delete dir="${dir.build}/struts"/>
+		<delete dir="${dir.build}/Scripts"/>
+		<delete dir="${dir.build}/jsp"/>
+		<delete dir="${dir.build}/META-INF"/>
+		<delete file="${dir.build}/saigrocery.war"/>
+		<delete file="${CATALINA_HOME}/webapps/saigrocery.war"/>
+		<delete dir="${CATALINA_HOME}/webapps/saigrocery"/>
+		<delete dir="${dir.build}"/>
+	</target>
+
+
+	<target name="init" depends="set-filter">
+		<mkdir dir="${dir.build}"/>
+		<mkdir dir="${dir.build}/WEB-INF/classes"/>
+		<mkdir dir="${dir.build}/WEB-INF/classes/properties"/>				
+		<mkdir dir="${dir.build}/WEB-INF/lib"/>
+		<mkdir dir="${dir.build}/WEB-INF/tlds"/>
+		<mkdir dir="${dir.build}/css"/>
+		<mkdir dir="${dir.build}/images"/>
+		<mkdir dir="${dir.build}/images/sheet"/>
+		<mkdir dir="${dir.build}/images/web2.0"/>
+
+
+		<mkdir dir="${dir.build}/images/phokus"/>
+
+		
+		<mkdir dir="${dir.build}/jsp"/>
+
+		<mkdir dir="${dir.build}/META-INF"/>
+		<mkdir dir="${dir.build}/Scripts"/>
+		<mkdir dir="${dir.build}/struts"/>
+		<mkdir dir="${dir.build}/struts/ajax"/>
+		<mkdir dir="${dir.build}/struts/dojo"/>
+
+		<mkdir dir="${dir.build}/struts/simple"/>
+
+	</target>
+	<target name="compile">
+		<javac srcdir="${dir.src}" destdir="${dir.build}/WEB-INF/classes" classpath="${dir.webcontent}/lib" debug="on">
+			<classpath refid="Web App Libraries.libraryclasspath"/>
+		</javac>
+		<copy includeemptydirs="false" todir="${dir.build}/WEB-INF/classes" filtering="true">
+			<fileset dir="${dir.webcontent}/properties" includes="*.properties"/>
+			<fileset file="${dir.webcontent}/WEB-INF/struts.xml"/>
+			<fileset file="${dir.webcontent}/WEB-INF/ehcache.xml"/>
+			<fileset file="${dir.webcontent}/WEB-INF/item-cache.xml"/>
+			<fileset dir="${dir.webcontent}/WEB-INF" excludes="*.xml"/>			
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/WEB-INF/classes/properties" filtering="true">
+					<fileset file="${dir.webcontent}/properties/ApplicationResources.properties"/>						
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/WEB-INF/classes" filtering="true">
+			<fileset dir="${dir.src}" excludes="**/*.launch, **/*.java"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/WEB-INF/lib" >
+			<fileset dir="${dir.webcontent}/WEB-INF/lib" includes="*.jar"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/WEB-INF/tlds" >
+			<fileset dir="${dir.webcontent}/WEB-INF/tlds" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/css" >
+			<fileset dir="${dir.webcontent}/css" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/images" >
+			<fileset dir="${dir.webcontent}/images" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/images/sheet">
+			<fileset dir="${dir.webcontent}/images/sheet" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/images/web2.0">
+			<fileset dir="${dir.webcontent}/images/web2.0" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/images/phokus">
+			<fileset dir="${dir.webcontent}/images/phokus" includes="*.*"/>
+		</copy>
+		
+		<copy includeemptydirs="false" todir="${dir.build}/jsp" filtering="true">
+			<fileset dir="${dir.webcontent}/jsp" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/META-INF" filtering="true">
+			<fileset dir="${dir.webcontent}/META-INF" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/Scripts" filtering="true">
+			<fileset dir="${dir.webcontent}/Scripts" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/struts" filtering="true">
+			<fileset dir="${dir.webcontent}/struts" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/struts/ajax" >
+			<fileset dir="${dir.webcontent}/struts/ajax" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/struts/dojo" >
+			<fileset dir="${dir.webcontent}/struts/dojo" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}/struts/simple" filtering="true">
+			<fileset dir="${dir.webcontent}/struts/simple" includes="*.*"/>
+		</copy>
+		<copy includeemptydirs="false" todir="${dir.build}" filtering="true">
+					<fileset dir="${dir.webcontent}" includes="*index.html"/>
+	    </copy>
+		<copy includeemptydirs="false" todir="${dir.build}/WEB-INF" filtering="true">
+			<fileset file="${dir.webcontent}/WEB-INF/applicationContext.xml" />
+			<fileset file="${dir.webcontent}/WEB-INF/web.xml" />
+			<fileset file="${dir.webcontent}/WEB-INF/item-cache.xml" />
+			<fileset dir="${dir.webcontent}/WEB-INF" excludes="*.xml"/>
+			
+		</copy>
+
+	</target>
+
+	<target name="war">
+		<mkdir dir="${dir.build}/"/>
+		<jar destfile="${dir.build}/ordernow.war" excludes="ordernow.war">
+			<fileset dir="${dir.build}" excludes="ordernow.war" />
+		</jar>
+		<copy includeemptydirs="false" todir="${CATALINA_HOME}/webapps/">
+			<fileset dir="${dir.build}/" includes="*.war"/>
+		</copy>
+	</target>
+
+	<target depends="clean" name="cleanall"/>
+
+	<target depends="build-subprojects,build-project" name="build"/>
+
+	<target name="build-subprojects"/>
+
+	<target depends="check" name="build-project">
+	</target>
+
+	<target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+	<target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+		<copy todir="${ant.library.dir}">
+			<fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+		</copy>
+		<unzip dest="${ant.library.dir}">
+			<patternset includes="jdtCompilerAdapter.jar"/>
+			<fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+		</unzip>
+	</target>
+	<target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+		<property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+		<antcall target="${dir.build}"/>
+	</target>
+
+	<target name="local">
+		<property name="deployment.property.file" location="local.properties"/>
+		<property file="${basedir}/local.properties">
+		</property>
+	</target>
+	<target name="mac">
+		<property name="deployment.property.file" location="mac.properties"/>
+		<property file="${basedir}/local.properties">
+		</property>
+	</target>
+
+	<target name="dev_india">
+		<property name="deployment.property.file" location="dev_india.properties"/>
+		<property file="${basedir}/local.properties">
+		</property>
+	</target>
+	<target name="prod">
+		<property name="deployment.property.file" location="prod.properties"/>
+		<property file="${basedir}/prod.properties">
+		</property>
+	</target>
+    <target name="bees">
+		<property name="deployment.property.file" location="bees.properties"/>
+		<property file="${basedir}/bees.properties">
+		</property>
+	</target>
+	<target name="set-filter">
+		<filter filtersfile="${deployment.property.file}"/>
+		<echo message="Using ${deployment.property.file} for properties">
+		</echo>
+	</target>
+
+</project>

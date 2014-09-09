@@ -1,0 +1,74 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+       "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+ 
+   <field name="fullName">   
+      	<field-validator type="requiredstring">
+        	 <message>Name on card is required.</message>
+        </field-validator>
+  </field>
+   
+  <field name="phoneNumber">   
+         
+		<field-validator type="regex">
+            <param name="expression"><![CDATA[^\d{3}\-\d{3}\-\d{4}$]]></param> 
+            <message>Phone Number must be in XXX-XXX-XXXX format.</message>
+        </field-validator>
+		
+  </field>
+  
+  <field name="email">   
+      	<field-validator type="requiredstring">
+        	 <message>Email required.</message>
+         </field-validator>
+       	<field-validator type="email">
+      		<message>Invalid Email.</message>
+  		</field-validator>
+  </field>
+    <field name="password">   
+         <field-validator type="stringlength">
+			<param name="maxLength">10</param> 
+			<param name="minLength">6</param>
+			<param name="trim">true</param>
+			<message>Must be between 6 to 10 characters.</message>
+		</field-validator>
+  </field>
+    <field name="confirmPassword">   
+       <field-validator type="stringlength">
+			<param name="maxLength">10</param> 
+			<param name="minLength">6</param>
+			<param name="trim">true</param>
+			<message>Must be same as Password.</message>
+		</field-validator>
+  </field>
+    <field name="address">   
+      <field-validator type="requiredstring">
+         <message>Address required.</message>
+      </field-validator>
+  </field>
+  <field name="city">   
+      <field-validator type="requiredstring">
+         <message>City Name required.</message>
+      </field-validator>
+  </field>
+  
+  <field name="state">   
+      <field-validator type="requiredstring">
+         <message>State Name required.</message>
+       </field-validator>
+  </field>
+  
+  <field name="zipCode">   
+      <field-validator type="requiredstring">
+         <message>ZIP Code required.</message>
+      </field-validator>
+  </field>
+ 
+    <field name="CC_Number1">   
+      <field-validator type="requiredstring">
+         <message>Credit card number required.</message>
+      </field-validator>
+  </field>
+ 
+ 
+</validators>

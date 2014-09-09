@@ -1,0 +1,177 @@
+table.its {
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	width: 92%;
+	/*padding: 2px 16px 2px 4px margin :   20px 0 0px 0 !important ;*/
+	
+	
+}
+.contentArea {
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	background-color: white;
+	width: 710px;
+	height: 465px;
+}
+table.its th,table.its td { 
+	/*padding: 2px 16px 2px 4px !important;
+	padding: 4px 8px 4px 8px !important;*/
+	text-align: left;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+table.its th.sorted {
+	background-color: #CCCCCC;;
+	
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+table.its th a,th a:visited {
+	color: #000000;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+table.its th a:hover {
+	text-decoration: none;
+	color: #000000;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+table.its th.sorted a,table.its th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	text-decoration: none;
+}
+
+table.its th.sortable a {
+	background-image: url(../images/arrow_off.png);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+table.its th.order1 a {
+	background-image: url(../images/arrow_down.png);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+table.its th.order2 a {
+	background-image: url(../images/arrow_up.png);
+	text-decoration: none;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+table.its thead tr { 
+	background-color: #CCCCCC;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+/* alternative row styles */
+table.its tr.even {
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	background-color: #EBEBEB;
+	
+}
+
+table.its tr.odd {
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	background-color: #ffffff;//fef1ab;
+}
+
+table.its tr a:hover {
+	text-decoration: none;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	color: #993333;//717c76;
+}
+
+table.its tr a:visited {
+	text-decoration: none;
+	color: #000000;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+div.exportlinks {
+	background-color: red;
+	padding: 2px 4px 2px 4px;
+	width: 92%;
+	text-align: left;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	color: white
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	display: inline-block;
+	cursor: pointer;
+	background-color: red;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	color: white;
+}
+
+div.exportlinks a {
+	color: white;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	}
+
+div.exportlinks span:hover {
+	text-decoration: underline;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+span.excel {
+	background-image: url(../images/excel.png);
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#FFFFFF;padding:3px;
+	background-repeat: no-repeat;
+}
+
+span.csv {
+	background-image: url(../images/csv.png);
+	background-repeat: no-repeat;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+span.pdf {
+	background-image: url(../images/pdf.png);
+	background-repeat: no-repeat;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+span.pagebanner {
+	display: none;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+span.pagelinks {
+	display: block;
+	background-color: #ffffff;//fef1ab; // e6f598; //# ffffcc;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	color: #000000;//fef1ab;
+}
+
+span.pagelinks a {
+	text-decoration: none;
+	color: #000000;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+span.pagelinks a:hover {
+	text-decoration: underline;   
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+	color: #000000;
+}
+
+span.pagelinks a:visited {
+	text-decoration: none;
+	color: #000000;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}
+
+.error {
+	color: red;
+	font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;
+}

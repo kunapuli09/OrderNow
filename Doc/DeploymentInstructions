@@ -1,0 +1,42 @@
+use ssh to login and login as root@starpathit.com  and password kk@starpath
+
+1) get the process id  ->    ps -ef | grep tomcat
+
+ 
+
+2) kill it by using following command  kill -9 <<processid>>
+
+3)Go to - cd /home/krishna/tomcat/webapps
+
+4) To remove the existing war -> rm -rf OrderService.war 
+	rm -rf OrderService/
+5) Get the latest code from subversion by updating it and make these changes
+
+	db.properties need a changed.
+	change the userid/password to prodroot/prodroot
+	make sure persistance.xml is commentedout.
+	build starpath-web locally.
+
+6)Go to webmin -> Open a webbrowser and enter the URL
+	https://starpathit.com:10000
+        login as root/kk@starpath
+        click on others icon
+        use file upload/download
+        upload local build war to /home/krishna/tomcat/webapps
+
+
+7) Go to cd /home/krishna/tomcat/bin
+	nohup ./startup.sh > tomcat.out 
+	verify by going into https://starpathit.com/OrderService/
+
+remove jsp-api-2.0.jar
+
+8) TO set the roles for an user, 
+
+from SSH - open mysql - insert or update the roles (GUEST, ADMIN, RESTAURANT_OWNER)
+ (OR)
+From Webmin - Go to servers->orderservice2009->Execute SQL Form
+Note: Table names should be captel letters
+
+
+

@@ -1,0 +1,277 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>cafe-tandoor.com</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { 
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+} 
+
+</script>
+<script>
+	var lockScreen = false;
+</script>
+
+        <script type="text/javascript" src="../Scripts/unitpngfix.js"></script>
+
+<link href="../css/style.css" media="screen"
+	rel="Stylesheet" type="text/css">
+<link href="../css/flexcrollstyles.css" media="screen"
+	rel="Stylesheet" type="text/css">
+
+<link href="../css/tutorsty.css" media="screen"
+	rel="Stylesheet" type="text/css">
+<script src="../Scripts/rico.js" type="text/javascript"></script>
+<script src="../Scripts/flexcroll.js"
+	type="text/javascript"></script>
+<script>
+	function getRequestedPage(url) {
+	new Ajax.Updater('left', '' + url, {
+	asynchronous : true,
+	evalScripts : true,
+	parameters : 'id=' + encodeURIComponent("")
+	});
+	}
+	function getOrderPage(url) {
+		new Ajax.Updater('body', '' + url, {
+		asynchronous : true,
+		evalScripts : true,
+		parameters : 'id=' + encodeURIComponent("")
+		});
+		}
+	function replaceBodyContent(url) {
+		new Ajax.Updater('bodycontent', '' + url, {
+		asynchronous : true,
+		evalScripts : true,
+		parameters : 'id=' + encodeURIComponent("")
+		});
+		}
+</script>
+
+</head>
+
+<body class="inner"
+	onLoad="MM_preloadImages('../images/home_r.gif','../images/ordernow_r.gif','../images/cateringorders_r.gif','../images/updatecontent_r.gif','../images/updateservices_r.gif','../images/showorders_r.gif','../images/directions_r.gif','../images/logout_r.gif')">
+
+
+<div id="body">
+<div id="wrapper">
+<div id="header">
+<div id="logo"><a href="starpathTemplate.jsp"><img
+	src="../images/logo.png" alt="Cafe-Tandoor" width="205" height="140" /></a></div>
+
+<div id="topnavigation">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td align="right" valign="top">&nbsp;</td>
+		<td width="61" align="right" valign="top"><a
+			href="starpathTemplate.jsp"> <img src="../images/home.gif"
+			alt="Home" width="61" height="33" id="Image1"
+			onMouseOver="MM_swapImage('Image1','','../images/home_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /> </a></td>
+		<td width="86" align="right" valign="top"><a
+			href='javascript:replaceBodyContent("getCategories.action?menu=Main Menu")'><img
+			src="../images/ordernow.gif" alt="Order Now" width="86" height="33"
+			id="Image2"
+			onMouseOver="MM_swapImage('Image2','','../images/ordernow_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /></a></td>
+		<td width="121" align="right" valign="top"><a
+			href='javascript:replaceBodyContent("getCategories.action?menu=Party Menu")'><img
+			src="../images/cateringorders.gif" alt="Catering Orders" width="121"
+			height="33" id="Image3"
+			onMouseOver="MM_swapImage('Image3','','../images/cateringorders_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /></a></td>
+
+		<td width="66" align="right" valign="top"><a
+			href='javascript:replaceBodyContent("getViewCategories.action?menu=Main Menu");'><img
+			src="../images/viewmenu.gif" alt="View Menu" width="105" height="33"
+			id="Image12"
+			onMouseOver="MM_swapImage('Image12','','../images/viewmenu_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /></a></td>
+
+		<td width="66" align="right" valign="top"><a
+			href='javascript:replaceBodyContent("getViewCategories.action?menu=Party Menu");'><img
+			src="../images/cateringmenu.gif" alt="View Menu" width="105" height="33"
+			id="Image12"
+			onMouseOver="MM_swapImage('Image9','','../images/cateringmenu_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /></a></td>
+
+		<td width="66" align="right" valign="top"><a
+			href='javascript:replaceBodyContent("registerTemplate.jsp");'><img
+			src="../images/receivecoupons.gif" alt="Recieve Coupons" width="105"
+			height="33" id="Image11"
+			onMouseOver="MM_swapImage('Image11','','../images/receivecoupons_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /></a></td>
+
+
+		
+		
+		<td width="81" align="right" valign="top"><a
+			href='javascript:replaceBodyContent("contactUs.jsp");'><img
+			src="../images/directions.gif" alt="Directions" width="81"
+			height="33" id="Image7"
+			onMouseOver="MM_swapImage('Image7','','../images/directions_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /></a></td>
+		
+		
+
+
+		<td width="66" align="right" valign="top"><a
+			href='javascript:replaceBodyContent("loginTemplate.jsp");'><img
+			src="../images/login.gif" alt="Logout" width="66" height="33"
+			id="Image4"
+			onMouseOver="MM_swapImage('Image4','','../images/login_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /></a></td>
+
+		<!--<td width="66" align="right" valign="top"><a
+			href='javascript:replaceBodyContent("registerTemplate.jsp");'><img
+			src="../images/registerhere.gif" alt="Register Here" width="105"
+			height="33" id="Image5"
+			onMouseOver="MM_swapImage('Image5','','../images/registerhere_r.gif',1)"
+			onMouseOut="MM_swapImgRestore()" /></a></td>
+		-->
+		
+	</tr>
+
+</table>
+</div>
+<div id="ordernowbg">
+<div id="todayspecial_text">Join us for Sunday Lunch Buffet 12-3PM</div>
+</div>
+<div id="ordernowbtn"><a
+	href='javascript:replaceBodyContent("getCategories.action?menu=Main Menu")'><img
+	src="../images/ordernow_btn.png" alt="Order Now" /></a></div>
+</div>
+<div id="banner"><img src="../images/banner_01.gif" alt="Banner"
+	width="250" height="219" /><img src="../images/banner_02.gif"
+	alt="Banner" width="250" height="219" /><img
+	src="../images/banner_03.gif" alt="Banner" width="250" height="219" /><img
+	src="../images/banner_04.gif" alt="Banner" width="250" height="219" /></div>
+<div id="bodycontent">
+<div id="left">
+<p>Cafe Tandoor is a Tandoori specialized Indian Cuisine. We promise
+to bring you ultimate dining experience through out exquisite cuisine,
+relaxing atmosphere and prompt service. Cafe-Tandoor Indian Restaurant
+located in the bay area near San Ramon, CA offers indian food from both
+north and south India. We are specialized in some of the great Tandoori
+dishes from the Indian sub continent. We endeavor to make our customers
+happy at Cafe Tandoor.</p>
+<p>Our restaurant offers online web-based ordering service for
+individual or catering clintele who are looking to take outs. We also
+have a delivery service that starts at 5PM everyday. No credit card is
+needed to order us at our website. We welcome paying at pickup/delivery.</p>
+<p class="bold">Welcome to Cafe Tandoor Online.</p>
+
+</div>
+<div id="center"><img src="../images/restaurenttimings.gif"
+	alt="Restaurant Timings" />
+<p>Fine Dining, Take Out and Catering</p>
+<p><span class="bold">Lunch Buffet</span><br />
+Tue– Sun (11:30 AM – 03:00 PM)</p>
+<p><span class="bold">Dinner </span><br />
+Tue – Sat (05:30 PM – 10:00 PM) Sun (05:30 PM – 09:30 PM)</p>
+<p class="bold">We are closed on Mondays</p>
+</div>
+<div id="right"><img src="../images/reataurent_address.gif"
+	alt="Restaurent Address" />
+<p>Indian Cafeteria<br />
+
+420 market place,<br />
+San Ramon,<br />
+CA 98453<br />
+Phone:925-244-1559</p>
+<img src="../images/order_onphone.gif" alt="Order Food on Phone"
+	width="273" height="35" />
+<p class="bold">Call us @ 925-244-1559</p>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div id="footer" class="inner"><a
+	href="javascript:replaceBodyContent('home.jsp');">Home</a> | <a
+	href="javascript:replaceBodyContent('aboutUs.jsp');">About Us</a> | <a
+	href="javascript:replaceBodyContent('getCategories.action?menu=Main Menu');">Order
+Online</a> | <a
+	href="javascript:replaceBodyContent('getCategories.action?menu=Party Menu');">Catering
+Order</a> | <a href="javascript:replaceBodyContent('contactUs.jsp');">Contact
+Us</a> | <a href="javascript:replaceBodyContent('contactUs.jsp');">Directions</a>
+
+| <a
+	href="javascript:replaceBodyContent('loginTemplate.jsp');">Login </a> 
+<br />
+<a href="javascript:replaceBodyContent('privacySecurity.jsp');">Privacy
+Policy</a> | <a href="javascript:replaceBodyContent('termsOfUse.jsp');">Terms
+Of Use</a> | <a
+	href="javascript:replaceBodyContent('dailySpecialsTemplate.jsp');">
+Daily Specials</a> | <a
+	href="javascript:replaceBodyContent('todaySpecialsTemplate.jsp');">
+Today Specials</a> <br />
+
+<p><span class="bold">Restaurant Address</span><br />
+Indian Cafeteria, 420 market place, San Ramon, CA 98453.<br />
+Order Food on Phone: 925-244-1559<br />
+</p>
+Copyright 2008 - 2009 indiancafeteria.com All rights reserved.</div>
+</div>
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+try {
+  
+var pageTracker = _gat._getTracker("UA-6651629-1");
+
+pageTracker._trackPageview();
+
+} catch(err) {}</script>
+</body>
+
+<script>
+
+	if("null" == "true")
+		getRequestedPage("emailactivate.jsp");
+	else if("null" == "false")
+		getRequestedPage("emailactivateerror.jsp");
+	
+</script>
+
+</html>

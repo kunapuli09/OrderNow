@@ -1,0 +1,110 @@
+
+
+#contentmainframe {
+margin:0px auto;
+width:370px;
+text-align:justify;
+}
+
+#menu{padding-left:100px;}
+#menu .ul .li .span .errorMessage{padding-left:100px;}
+
+#mycustomscroll {
+/* percentage width without the fix*/
+width:180px;
+height: 150px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin: 0.3em auto;
+padding:0px;
+padding-right:10px;
+}
+
+#mycustomscroll2 {
+/*percantage width: make it 100% to match container*/
+width: 560px;
+height: 450px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin:0px;
+/* negative left margin to compensate for the padding,
+not related to fleXcroll, and may not be needed elsewhere */
+padding:0px;
+}
+#mycustomscroll3 {
+/*percantage width: make it 100% to match container*/
+width: 760px;
+height: 450px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin:0px;
+/* negative left margin to compensate for the padding,
+not related to fleXcroll, and may not be needed elsewhere */
+padding:0px;
+}
+/*
+percentage width: the real percentage is done by the wrapper
+this is to fix various IE6 bugs
+*/
+#mycustomscroll4{
+/*percantage width: make it 100% to match container*/
+width: 600px;
+height: 400px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin:0px;
+/* negative left margin to compensate for the padding,
+not related to fleXcroll, and may not be needed elsewhere */
+padding:0px;
+}
+/*
+percentage width: the real percentage is done by the wrapper
+this is to fix various IE6 bugs
+*/
+#mycustomscroll5{
+/*percantage width: make it 100% to match container*/
+width: 1100px;
+height: 300px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin:0px;
+/* negative left margin to compensate for the padding,
+not related to fleXcroll, and may not be needed elsewhere */
+padding:0px;
+}
+/*
+percentage width: the real percentage is done by the wrapper
+this is to fix various IE6 bugs
+*/
+
+#mycustomscroll6{
+/*percantage width: make it 100% to match container*/
+width: 1000px;
+height: 300px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+margin:0px;
+/* negative left margin to compensate for the padding,
+not related to fleXcroll, and may not be needed elsewhere */
+padding:0px;
+}
+/*
+percentage width: the real percentage is done by the wrapper
+this is to fix various IE6 bugs
+*/
+	
+.fixedwidth {
+/* a wide div is used for creating horizontal scrollbars for demonstration purposes */
+width: 370px;
+height: auto;
+position: relative;
+color: black;
+padding: 1px;
+}
+

@@ -1,0 +1,20 @@
+<!-- 
+  The EHCache configuration
+ -->
+<ehcache>
+  <defaultCache
+      maxElementsInMemory="500"
+      eternal="true"
+      overflowToDisk="false"
+      memoryStoreEvictionPolicy="LFU" />
+  <cache name="itemCache"
+      maxElementsInMemory="500"
+      eternal="true"
+      overflowToDisk="false"
+      memoryStoreEvictionPolicy="LFU" />
+   <cache name="categoryCache"
+      maxElementsInMemory="500"
+      eternal="true"
+      overflowToDisk="false"
+      memoryStoreEvictionPolicy="LFU" />
+</ehcache>

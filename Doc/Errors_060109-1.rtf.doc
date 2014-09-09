@@ -1,0 +1,106 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf430
+{\fonttbl\f0\fnil\fcharset0 Verdana;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue0;\red255\green0\blue0;\red42\green0\blue255;
+}
+\vieww25100\viewh13720\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs20 \cf0 				Defects\
+UI - Look n Feel\
+\
+1. Copyright msg in the footer is not at the left most corner in IE. -   Fixed\
+\cf2 2. Operating hours - should not be in 2 lines in IE. - not able to fix , can i change it to Timings?\cf0 \
+\cf2 3.  More Promotions should be mentioned. - How to present this page? Not necessary as of now?\cf0 \
+\cf3 4.  Register successful page should be filled.Any suggestions?\cf0 \
+5.  Shopping cart page should be properly aligned. - Fixed.\
+6.  Shopping cart display page should be properly aligned. - Fixed.\
+\cf2 7.  Background color should be changed. - Found a better option as color #cccccc; if not, suggest another color.\cf0 \
+8.  ForgotPassword screen -  validation should be displayed as Email required. - Fixed\
+12.  After clicking ConfirmOrder, 2 pages are seen within one another.\
+13. Edit  Profile table width should be increased so that the errors are seen more properly. - Fixed\uc0\u8232 14.  In Register screen, at the left -bottom corner there is an alphabet "t"- Fixed\
+\cf2 15.  In few places of items container, price is marked "0". - Fix should be done from your side.\cf0 \
+16.  In Quick register form, server side error msgs do not span over entire row also the font is too big.-Fixed.\
+\
+u15465001.jpg\
+header2.jpg\
+MenuButton.png\
+close2.gif\
+\
+\
+FireFox:\
+\
+18.  Horizontal scroll bar appears.-Fixed\
+19.  Inconsistent font seen. - Fixed\
+20. In Pickupdelivery page, error message is not properly aligned - Fixed.\
+21.  Select button does not work properly.- Fixed\
+22.  In ContactUs screen, address td is at the extreme left - Fixed\
+23.  In Existing User form, email field is inconsistent with remaining fields. - cannot be fixed.\
+24.  In Existing User form ,When there is server side error message the fields move down.- Fixed\
+25.  Update Content is horrible.\
+26.  UpdateOptions, there is a violet color and everything is left side.\
+27.  Forgot password screen  is left aligned. - cannot be fixed.\
+28.  UpdateServices left aligned.\
+29. In step 2 when when click on submit, validations are not happening for first time. - cannot reproduce\
+30. Edit Profile page not aligned to center.\
+\
+	\
+		Functionality\
+\
+  When a user logs in as existing user, go to step 2 and click on back button, the user's data is populated in the New User fields. Remove back button in the pickUpDelivery page. Fix Account Details display in orderpage.jsp\
+  Show Orders Map to show directions to the customer location.Map with driving directions to that location.\
+  Show Customers List and Search Capabilities and email Capabilities and number of times they placed orders through our\
+  I agree checkbox with Terms and Conditions for registration page.\
+  Revert Core database api is changes(Generic DAO is changed).\
+  StarpathTemplate needs to have production code to add flashy header image\
+system\
+  Display show orders link to the buyer\
+  Show OrderTime that is future ...don't show times in the past and then error\
+  provide ability to update delivery availability for the day\
+  Restaurant Owner shall be able to Update Promotions using Update Options Page\
+  Restaurant Owner shall be able to Search For Customers by Phone or Last Name. Update Existing User Information.  \
+  Handle Session between thirdparty credit check site and OrderService\
+  Design Buyer vs Seller  OR Merchant vs User\
+  Add an Order to an existing User.\
+  Design Get Quote for Party Orders / Catering.\
+  Design Order Status Life Cycle  \
+  Show the Picture Not Available\
+Clean Up Export Project to load Items Catalog\
+  Code Cleanup & unit tests ---> Cruise Control\
+  Add ability Update Prices of Items in the catalog(Phase-3)\
+  Make Email, Phone and Last name as the primary key of the Customer table\
+  Search for Items in the Catalog/Sort Items\
+  try 
+\f1\fs22 \cf4 struts.devMode value to false in the struts.xml\
+ fax is not showing correct quantity\
+ Item Options and Item Promotions\
+ Indicate Green for Vegetarian Food\
+ Tax Issue\
+NumberFormatException with Order Cancellation\
+UpdateServices has errors
+\f0\fs20 \cf0 \
+\
+Go Live Items TODO for any new restaurant\
+\
+1) Type Menu and point correct pictures\
+2) Type in the content(no build required)\
+3) Change hours of Operation (Code change.. needs build)\
+4) Fill in something for promotions page(Code change..needs build)\
+5) Add correct Fax number to go live.\
+6) IP Address purchase with  and mapping \
+7) Change the PDF code to reflect the Address or the restaurant.\
+8) Disable Credit Service\
+9) Change Ordered To Restaurant name(Line105  in the ITextPdfServiceImpl class.\
+10) Change Order Number sequence to start at 10000\
+11) Enable Delivery Service\
+12) remove item promotions data load\
+12) Agree to Terms and Conditions checkbox\
+13) Update taxRate in prod.properties related to the restaurant\
+14) Find the Tax information for the restaurant region\
+\
+\
+\
+\
+\
+-Xdebug -Xrunjdwp:transport=dt_socket, address=8000,server=y,suspend=n\
+}

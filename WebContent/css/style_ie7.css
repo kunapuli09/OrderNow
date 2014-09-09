@@ -1,0 +1,97 @@
+/*  Indian Cafteria
+	Copyright 2009
+*/
+@import url("reset.css");
+
+/* Main Structural Elements 
+---------------------------------------------------*/
+body{margin:0px;padding:0px;background:url(../images/) repeat-x;background-color:#FED178; font:11px Verdana, Arial, Helvetica, sans-serif;line-height:18px;}
+body.inner{margin:0px;padding:0px;background:url(../images/innerbg.jpg) repeat-x;background-color:#FED178; font:11px Verdana, Arial, Helvetica, sans-serif;line-height:18px;}
+#wrapper{margin:0px 40px 0px 120px;width:1100px; display:block; position:relative}
+#header{width:1100px;height:158px;display:block;position:relative}
+#banner{clear:both;width:1100px;height:219px; display:block;position:relative}
+#bannerinner{clear:both;width:1100px;height:147px; display:block;position:relative}
+#bodycontent{width:1000px; font:11px Verdana, Arial, Helvetica, sans-serif; color:#7C0F11;display:block;position:relative }
+#footer{ clear:both; background:url(../images/footerbg.jpg) repeat-x;background-color:#470203; color:#C68642; text-align:center; padding:12px 0px 16px 0px; position:relative; width:100%; height:72px; display:block;}
+.clear{clear:both;}
+.bold{font-weight:bold;}
+
+/* Header Styles
+---------------------------------------------------*/
+#header #logo{width:210px;height:150px;float:left; padding:8px 0px 0px 0px;}
+#header #topnavigation{width:788px;float:left; height:33px; }
+#header #ordernowbg{width:708px;float:left; background:url(../images/irdernow_inner.png) bottom left no-repeat; height:125px; margin:0px 80px 0px 0px;}
+#header #ordernowbtn{width:135px;float:left; height:125px; margin:0px 0px 0px 0px;}
+#header #ordernowinnerbg{width:708px;float:left; background:url(../images/irdernow_inner.png) bottom right no-repeat; height:125px; margin:0px 80px 0px 0px;}
+#header #ordernowinnerbg p{ padding:20px 0px 10px 170px; color:#FED178;}
+#header #ordernowinnerbg #leftblock{ color:#FED178; width:200px; float:left; margin:20px 10px 10px 70px;}
+#header #ordernowinnerbg #rightblock{ color:#FED178; width:200px; float:right; margin:20px 110px 10px 0px;}
+
+
+/* Body Styles
+---------------------------------------------------*/
+#bodycontent #left{width:415px; border-right:1px solid #ECAB58;  float:left; position:relative;}
+#bodycontent #left p{ padding:10px 15px 8px 0px; line-height:18px; }
+#bodycontent #center{width:306px; border-right:1px solid #ECAB58; float:left;position:relative;}
+#bodycontent #center p{ padding:10px 60px 6px 40px; line-height:18px; }
+#bodycontent #right{width:276px; float:left;position:relative;}
+#bodycontent #right p{ padding:10px 60px 40px 35px; line-height:18px; }
+#bodycontent #leftnav {width:415px; border-right:1px solid #ECAB58;  float:left; position:relative;}
+#bodycontent #leftnav1 {width:400px; border-right:1px solid #ECAB58;  float:left; position:relative;}
+/* Footer Styles
+---------------------------------------------------*/
+#footer a {text-decoration:none; line-height:18px; color:#FAD07D;}
+#footer a:hover { color:#FFFFFF; text-decoration:underline;}
+#footer.inner{ clear:both;background:url(../images/footer_innerbg.jpg) repeat-x; height:234px;background-color:#470203; color:#C68642; text-align:center; padding:12px 0px 16px 0px;position:relative; width:100%;}
+#footer p{color:#FFFFFF; padding:20px 0px 20px 0px;}
+/* Top Navigation Styles
+---------------------------------------------------*/
+#leftmenu{background-color:#59090A;font:bold 11px Verdana, lucida, sans-serif;text-decoration:none;line-height:25px;color:#FFFFFF;padding-left:20px;}
+#navcontainer ul{list-style-type: none;text-align: left;border-left:1px solid #D09A32;border-right:1px solid #D09A32;}
+#navcontainer ul li a{background:url(../images/browmarrow.gif) left center no-repeat;padding-left:30px;text-align: left;font: normal 11px Verdana, lucida, sans-serif;text-decoration: none;color: #000000;display: block;border-bottom:1px solid #D09A32;line-height:24px; height:30px;}
+#navcontainer ul li a:visited{background:url(../images/browmarrow.gif) left center no-repeat;color: ;text-decoration:none;line-height:24px;}
+#navcontainer ul li a:hover{background:url(../images/browmarrow.gif) left center no-repeat;color: #ffffff;text-decoration:none;line-height:24px;}
+#navcontainer ul li a:active{background:url(../images/browmarrow.gif) left center no-repeat;color: red;text-decoration:none;line-height:24px;}
+#navcontainer ul li a#current{background:url(../images/browmarrow.gif) left center no-repeat;color: #500507;}
+#hashbar{background-color:#59090A;font:bold 11px Verdana, lucida, sans-serif;text-decoration:none;line-height:5px;color:#FFFFFF;padding-left:10px;}
+
+/* Left Navigation Styles
+---------------------------------------------------*/
+#bodycontent #leftnav{width:222px; float:left; position:relative; margin-right:5px;}
+#bodycontent #tabulardata{width:565px; float:left; position:relative; margin-right:4px;}
+#bodycontent #mealorder{width:180px; float:left; position:relative; }
+/* Others
+---------------------------------------------------*/
+#todayspecial_text{width:350px; height:20px; float:right;font:11px Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; margin:100px 0px 0px 110px; line-height:20px;}
+#todayspecial_inner{width:330px; height:20px; float:right;font:11px Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; margin:15px 150px 0px 40px;line-height:20px;}
+.addbutton{background-color:#422900;cursor:pointer; border:1px solid #000000; width:42px; height:22px; font:bold 11px Verdana, Arial, Helvetica, sans-serif;color:#FFFFFF; }
+.checkoutbutton{background-color:#422900;cursor:pointer; border:1px solid #000000; width:76px; height:22px; font:bold 11px Verdana, Arial, Helvetica, sans-serif;color:#FFFFFF; }
+.buttoncss{background-color:#422900;cursor:pointer; border:1px solid #000000; font:bold 11px Verdana, Arial, Helvetica, sans-serif;color:#FFFFFF; padding:2px 4px 2px 4px;}
+.pointer{cursor:pointer;}
+.OrderButton{cursor:pointer;}
+.arrow {background:url(../images/redarrow.gif) no-repeat;margin-left:8px;}
+.drop {border-left:1px solid black;border-right:1px solid black;}
+.yellowborder {border:1px solid #D09A32;color:#000000;}
+.tabletitle {background:url(../images/tabletopbg.gif);font:bold 11px Verdana, Arial, Helvetica, sans-serif;	color:#FFCC00;line-height:29px;	border-right:1px solid #702D1E;	border-left:1px solid #2D0203;text-indent:10px;}
+.cellone {background-color:#F5E5C7;height:75px;border-bottom:1px solid #FFC044;}
+.celltwo {background-color:#FEEBC5;height:75px;border-bottom:1px solid #FFC044;}
+.quantity {width:50px;border:1px solid #B89798;height:20px;}
+.price {color:#000000;}
+.itemname {color:#4E0406;font-weight:bold;}
+.more {padding:5px 0px 5px 0px;}
+.yourmeals_border {font:10px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;}
+.yourmeals_border_td {font:10px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;}
+.yourmeals_border_td  a{font:10px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;cursor:pointer;}
+.yourmeals_border .price {font-weight:bold;font:bold 10px Verdana, Arial, Helvetica, sans-serif;padding:5px 0px 5px 0px;border-bottom:1px solid #DCA452;}
+.yourmeals_border .total {font-weight:bold;font:bold 10px Verdana, Arial, Helvetica, sans-serif;padding:5px 0px 5px 0px;border-bottom:1px solid #DCA452;border-top:1px solid #DCA452;}
+.pagenation {font:10px Verdana, Arial, Helvetica, sans-serif;color:#520607;text-decoration:none;}
+.pagenation:hover {font:10px Verdana, Arial, Helvetica, sans-serif;color:#000000;text-decoration:underline;}
+.pagenumber {font:11px Verdana, Arial, Helvetica, sans-serif;color:#520607;text-decoration:none;background-color:#D5BE90;padding:3px;text-align:center;}
+.pagenumber:hover {font:11px Verdana, Arial, Helvetica, sans-serif;color:#FFFFFF;text-decoration:none;background-color:#993300;padding:3px;	text-align:center;}
+.empty {height:15px;}
+.form_label_td{font:11px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;}
+.form_label_td_error{font:11px Verdana, Arial, Helvetica, sans-serif;color:red;padding:3px;}
+.yellowpay{border-left: 1px solid #FFC044;border-top: 1px solid #FFC044;border-right: 1px solid #FFC044;}
+.yellowser{border-left: 1px solid #FFC044;border-right: 1px solid #FFC044;}
+.yellowlast{border-left: 1px solid #FFC044;border-bottom: 1px solid #FFC044;border-right: 1px solid #FFC044;}
+.ordersuccess_td{font:15px Verdana, Arial, Helvetica, sans-serif;color:#000000;padding:3px;}
