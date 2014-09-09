@@ -5,6 +5,6 @@ An Online Order Service(SaaS)  - Restaurants/Small businesses can host their cat
 
 This was developed in 2008 and hosted by two restaurants and a grocery store. Backend is still solid and very valid. UI is a disaster and re-work is needed. 
 
-TechStack : Tomcat, Java, Hibernate, Struts, MySQL Database, Pipeline Data payment system, GoDaddy SSL,  eFax Service, and DOJO Java Script tool kit 
+TechStack : Tomcat, Java, Spring2x, Hibernate3x, Struts, MySQL Database, Pipeline Data payment system, GoDaddy SSL,  eFax Service, and DOJO Java Script tool kit 
 
 
